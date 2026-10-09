@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background: #166534;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+.campo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.campo input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.campo input:focus {
+    outline: none;
+    border-color: #16a34a;
+}
+
+.acciones {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    background: #16a34a;
+    color: white;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button:hover {
+    background: #166534;
+}
+
+#btn-limpiar {
+    background: #dc2626;
+}
+
+#btn-limpiar:hover {
+    background: #991b1b;
+}
+
+.resultado {
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+.resultado h2 {
+    color: #166534;
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+
+#salida {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: Consolas, monospace;
+    white-space: pre-wrap;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #666;
+    font-size: 0.85rem;
+}

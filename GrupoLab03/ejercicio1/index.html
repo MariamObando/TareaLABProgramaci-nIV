@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 — Datos personales con JSON</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Datos personales con JSON</h1>
+        <p>Renderizado dinámico del arreglo con <code>createElement</code> / <code>appendChild</code>.</p>
+    </header>
+
+    <main>
+        <table id="tabla-personas">
+            <caption>Listado de personas</caption>
+            <thead>
+                <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Edad</th>
+                    <th>Profesión</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpo-tabla">
+                <!-- Se llena dinámicamente desde app.js -->
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>Tema 4 · Laboratorio 3 · Programación 4</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
