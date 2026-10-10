@@ -124,7 +124,7 @@ Aspectos destacados:
 Validaciones implementadas:
 
 - Nombre: solo letras (con tildes, ñ, ü) y espacios; entre 2 y 60 caracteres.
-- Correo: formato usuario@dominio.ext con extensión de 2+ caracteres.
+- Correo: formato usuario@dominio.com con extensión de 2+ caracteres.
 
 Resultado esperado: el dato permanece tras refrescar la página, cerrar la
 pestaña o cerrar y reabrir el navegador.
